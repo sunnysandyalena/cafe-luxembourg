@@ -5,10 +5,17 @@ const Cart = () => {
     const cartItems = useSelector(getCartItems);
     const totalPrice = useSelector(getTotalPrice)
     return (
-        <div className="container-dish">
-            <h2>CART</h2>
-            {cartItems.map(cartItem =>  <CartItem cartItem={cartItem} />)}
-            <h3>TOTAL: ${totalPrice}</h3>
+        <div className="container">
+            <div className='container-cart'>
+                <h2>CART</h2>
+            </div>
+            <div>
+                {cartItems.map(cartItem =>  <CartItem cartItem={cartItem} />)}
+            </div>
+            <div>
+                 <h3>TOTAL: ${totalPrice}</h3>
+            </div>
+            
         </div>
     )
 }

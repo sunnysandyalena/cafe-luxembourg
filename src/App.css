@@ -4,24 +4,41 @@
   font-family: 'Futura PT', sans-serif;
   color: #054279;
 }
-.block-one {
+nav {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   flex-wrap: wrap;
   position: fixed;
-  top: 0; 
+  top: 0;
   width: 100%; 
   overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 15px;
   background-color: #fffad6;
-  padding: 20px;
 }
-.block-two {
+.link {
+  padding: 10px 40px;
+  text-decoration: none;
+}
+.icon {
+  width: 35px;
+}
+.logo {
+  width: 200px;
+}
+.block {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  padding: 20px;
-  margin-top: 200px;
+  position: fixed;
+  padding: 15px;
+  width: 100%; 
+  top: 130px;
+  overflow: hidden;
+  background-color: #fffad6;
+  font-family: 'Futura PT', sans-serif;
+  color: #054279;
 }
 .dish-img {
   width: 400px;
@@ -33,15 +50,76 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-wrap: wrap;
+  font-family: 'Futura PT', sans-serif;
+  color: #054279;
+  margin-top: 130px;
+  margin-left: 2%;
+}
+.container-home {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  font-family: 'Futura PT', sans-serif;
+  color: #054279;
+  background-color: #fffad6;
+  margin-top: 130px;
+}
+.container-img {
+  margin-top: 2%;
+  margin-left: 2%;
+}
+.container-info {
+  margin-left: 2%;
+}
+.container-cart {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: fixed;
+  padding: 15px;
+  width: 100%; 
+  top: 130px;
+  overflow: hidden;
+  background-color: #fffad6;
+  font-family: 'Futura PT', sans-serif;
+  color: #054279;
+}
+a {
+  text-decoration: none;
+  color: #d05f75;
 }
 .container-dish {
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-wrap: wrap;
   padding: 3%;
   flex-grow: 1;
   flex-basis: 16%;
   width: 500px;
+}
+.container-profile {
+  background-color: #fffad6;
+  position: fixed;
+  padding: 15px;
+  width: 100%; 
+  top: 130px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.log-btn {
+  padding: 10px;
+  border: none;
+  background-color:  #d05f75;
+  border-radius: 5px;
+  color:white;
+  font-weight: bolder;
+  font-size: 20px;
+  width: 250px;
 }
 .add-btn {
   padding: 5px;
@@ -79,6 +157,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   border: solid 3px #d05f75;
   border-radius: 5px;
   color:#d05f75;
