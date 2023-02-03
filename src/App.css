@@ -200,7 +200,7 @@ a {
   .block {
     justify-content: center;
     padding: 15px;
-    top: 8%;
+    top: 12%;
   }
   .icon {
     width: 25px;
@@ -233,12 +233,17 @@ a {
   }
   .container-dishes {
     margin-top: 25%;
+    width: 350px;
   }
   .heading {
     font-size: 20px;
   }
   .container-img {
     margin-top: 15%;
+    margin-left: 0;
+  }
+  .container-info {
+    margin-left: 0;
   }
   .dish-img {
     width: 300px;
