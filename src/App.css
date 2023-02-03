@@ -99,8 +99,6 @@ a {
   align-items: center;
   flex-wrap: wrap;
   padding: 3%;
-  flex-grow: 1;
-  flex-basis: 16%;
   width: 500px;
 }
 .container-btn {
@@ -201,14 +199,14 @@ a {
   }
   .block {
     justify-content: center;
-    padding: 5px;
-    top: 7%;
+    padding: 15px;
+    top: 8%;
   }
   .icon {
     width: 25px;
   }
   .home-img {
-    width: 400px;
+    width: 350px;
   }
   .category {
     margin-top: 5px;
@@ -238,5 +236,11 @@ a {
   }
   .heading {
     font-size: 20px;
+  }
+  .container-img {
+    margin-top: 15%;
+  }
+  .dish-img {
+    width: 300px;
   }
 }
