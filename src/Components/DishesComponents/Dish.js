@@ -7,7 +7,7 @@ const Dish = ({dish}) => {
     const [quantity, setQuantity] = useState(1);
     const dispatch = useDispatch();
     return (
-        <div className="container-dish" key = {dish.id}>
+        <div className="container-dishes" key = {dish.id}>
             <h2>{dish.name}</h2>
             <img className="dish-img" src ={dish.img} alt = {dish.name}/>
             <p className="text">{dish.description}</p>

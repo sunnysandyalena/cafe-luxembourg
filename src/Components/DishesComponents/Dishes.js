@@ -7,7 +7,7 @@ const Dishes = () => {
     const selectedCategory = useSelector(getSelectedCategory);
 
     return (
-        <div className="container">
+        <div>
             {dishesData
             .filter(dish => {
                 return selectedCategory === dish.category;

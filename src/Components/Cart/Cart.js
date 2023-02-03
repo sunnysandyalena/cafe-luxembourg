@@ -13,7 +13,7 @@ const Cart = () => {
                 {cartItems.map(cartItem =>  <CartItem cartItem={cartItem} />)}
             </div>
             <div>
-                 <h3>TOTAL: ${totalPrice}</h3>
+                <h3>TOTAL: ${totalPrice}</h3>
             </div>
             
         </div>

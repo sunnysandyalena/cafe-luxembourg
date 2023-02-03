@@ -53,7 +53,7 @@ nav {
   flex-wrap: wrap;
   font-family: 'Futura PT', sans-serif;
   color: #054279;
-  margin-top: 130px;
+  margin-top: 15%;
   margin-left: 2%;
 }
 .container-home {
@@ -64,7 +64,7 @@ nav {
   font-family: 'Futura PT', sans-serif;
   color: #054279;
   background-color: #fffad6;
-  margin-top: 130px;
+  margin-top: 8%;
 }
 .container-img {
   margin-top: 2%;
@@ -80,7 +80,7 @@ nav {
   position: fixed;
   padding: 15px;
   width: 100%; 
-  top: 130px;
+  top: 18%;
   overflow: hidden;
   background-color: #fffad6;
   font-family: 'Futura PT', sans-serif;
@@ -90,7 +90,7 @@ a {
   text-decoration: none;
   color: #d05f75;
 }
-.container-dish {
+.container-dishes {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -100,12 +100,15 @@ a {
   flex-basis: 16%;
   width: 500px;
 }
+.container-btn {
+  top: 25%;
+}
 .container-profile {
   background-color: #fffad6;
   position: fixed;
   padding: 15px;
   width: 100%; 
-  top: 130px;
+  top: 15%;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -120,6 +123,7 @@ a {
   font-weight: bolder;
   font-size: 20px;
   width: 250px;
+  top: 30%;
 }
 .add-btn {
   padding: 10px;
@@ -194,5 +198,8 @@ a {
   }
   .block {
     justify-content: space-evenly;
+  }
+  .icon {
+    width: 25px;
   }
 }
