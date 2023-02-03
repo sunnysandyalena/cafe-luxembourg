@@ -10,7 +10,7 @@ const Profile = () => {
     return (
         <div className="container">
             <div className="container-profile">
-                <h2>PROFILE</h2>
+                <h2 className='heading'>PROFILE</h2>
             </div>
             <div>
                 <div>

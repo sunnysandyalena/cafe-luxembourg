@@ -3,7 +3,7 @@ const Home = () => {
     return (
         <div className='container-home'>
             <div className='container-img'>
-                <img src={homePageImg} alt="Cafe Luxembourg" width="450px"/>
+                <img className='home-img' src={homePageImg} alt="Cafe Luxembourg"/>
             </div>
             <div className='container-info'>
                 <h3>200 W 70th st New York, NY</h3>

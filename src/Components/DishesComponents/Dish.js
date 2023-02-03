@@ -8,7 +8,7 @@ const Dish = ({dish}) => {
     const dispatch = useDispatch();
     return (
         <div className="container-dishes" key = {dish.id}>
-            <h2>{dish.name}</h2>
+            <h2 className='heading'>{dish.name}</h2>
             <img className="dish-img" src ={dish.img} alt = {dish.name}/>
             <p className="text">{dish.description}</p>
             <h3>${dish.price}</h3>

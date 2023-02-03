@@ -27,6 +27,9 @@ nav {
 .logo {
   width: 200px;
 }
+.home-img {
+  width: 450px;
+}
 .block {
   display: flex;
   justify-content: space-around;
@@ -34,7 +37,7 @@ nav {
   position: fixed;
   padding: 15px;
   width: 100%; 
-  top: 110px;
+  top: 15%;
   overflow: hidden;
   background-color: #fffad6;
   font-family: 'Futura PT', sans-serif;
@@ -191,15 +194,49 @@ a {
 
 @media all and (max-width: 500px) {
   .link {
-    padding: 5px 5px;
+    padding: 0px 5px;
   }
   .logo {
     width: 150px;
   }
   .block {
-    justify-content: space-evenly;
+    justify-content: center;
+    padding: 5px;
+    top: 7%;
   }
   .icon {
     width: 25px;
+  }
+  .home-img {
+    width: 400px;
+  }
+  .category {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .selected-category {
+    font-size: 20px;
+  }
+  .other-category {
+    font-size: 20px;
+  }
+  .other-category:hover {
+    font-size: 20px;
+  }
+  .container {
+    margin-top: 30%;
+  }
+  .container-cart {
+    top: 10%;
+  }
+  .container-profile {
+    top: 10%
+  }
+  .container-dishes {
+    margin-top: 25%;
+  }
+  .heading {
+    font-size: 20px;
   }
 }
