@@ -7,14 +7,21 @@ const Dish = ({dish}) => {
     const [quantity, setQuantity] = useState(1);
     const dispatch = useDispatch();
     return (
-        <div className="container-dishes" key = {dish.id}>
-            <h2>{dish.name}</h2>
-            <img className="dish-img" src ={dish.img} alt = {dish.name}/>
-            <p className="text">{dish.description}</p>
-            <h3>${dish.price}</h3>
-            <ChangeQuantity quantity={quantity} setQuantity={setQuantity}/>
-            <button onClick={() => {dispatch(addItemToCart({dish, quantity}))}} className="add-btn">ADD</button>
+        <div className="product-card">
+            <div className="container-dishes" key = {dish.id}>
+                <h2>{dish.name}</h2>
+                <img className="dish-img" src ={dish.img} alt = {dish.name}/>
+                <p className="text">{dish.description}</p>
+                <h3>${dish.price}</h3>
+            <div>
+                <ChangeQuantity quantity={quantity} setQuantity={setQuantity}/>
+            </div>
+            <div>
+                <button onClick={() => {dispatch(addItemToCart({dish, quantity}))}} className="add-btn">ADD</button>
+            </div>
         </div>
+        </div>
+        
     )
 }
 

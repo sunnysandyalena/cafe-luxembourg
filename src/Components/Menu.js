@@ -7,7 +7,7 @@ const Menu = () => {
             <div className="block">
                 <AllCategories/>
             </div>
-            <div className="container">
+            <div className="products">
                 <Dishes/>
             </div>
         </div>

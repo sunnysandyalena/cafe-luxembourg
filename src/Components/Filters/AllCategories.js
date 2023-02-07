@@ -1,4 +1,5 @@
 import Filter from "./Filter";
+
 const AllCategories = () => {
     return (
         <div className="categories">
