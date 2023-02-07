@@ -14,7 +14,7 @@ nav {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  padding: 15px;
+  padding: 20px;
   background-color: #fffad6;
 }
 .link {
@@ -87,7 +87,7 @@ nav {
   font-family: 'Futura PT', sans-serif;
   color: #054279;
 }
-a {
+.open-table {
   text-decoration: none;
   color: #d05f75;
 }
