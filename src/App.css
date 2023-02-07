@@ -34,11 +34,9 @@ nav {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  position: fixed;
-  padding: 15px;
+  padding: 2%;
   width: 100%; 
-  top: 15%;
-  overflow: hidden;
+  margin-top: 8%;
   background-color: #fffad6;
   font-family: 'Futura PT', sans-serif;
   color: #054279;
@@ -96,12 +94,11 @@ a {
 .products {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 8%;
   font-family: 'Futura PT', sans-serif;
   color: #054279;
 }
 .product-card {
-  padding: 2%;
+  padding: 3%;
   flex-grow: 1;
   flex-basis: 16%;
   display: flex;
@@ -211,8 +208,8 @@ a {
   }
   .block {
     justify-content: center;
-    padding: 15px;
-    top: 12%;
+    
+    margin-top: 21%;
   }
   .icon {
     width: 25px;
@@ -242,12 +239,6 @@ a {
   }
   .container-profile {
     top: 12%
-  }
-  .container-dishes {
-    margin-top: 25%;
-  }
-  .products {
-    margin-top: 5%;
   }
   .heading {
     font-size: 20px;
