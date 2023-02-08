@@ -21,7 +21,7 @@ const dishesData = [
         img: 'green-salad.webp',
         name: 'Mixed Greens Salad',
         description: 'Mixed lettuces salad dressed in roasted shallot-sherry vinaigrette.',
-        category: 'SALADS'
+        category: 'APPETIZERS'
     },
     {
         id: 4,
@@ -29,7 +29,7 @@ const dishesData = [
         img: 'nicoise-salad.webp',
         name: 'Niçoise Salad',
         description: 'Mixed greens, roasted red peppers, haricots verts, hard boiled egg, Yukon Gold potato, Niçoise olives, roasted shallot-sherry vinaigrette.',
-        category: 'SALADS'
+        category: 'APPETIZERS'
     },
     {
         id: 5,
@@ -37,7 +37,7 @@ const dishesData = [
         img: 'kale-salad.webp',
         name: 'Baby Kale Caesar Salad',
         description: 'Baby kale, shaved parmesan, croutons, creamy garlic dressing.',
-        category: 'SALADS'
+        category: 'APPETIZERS'
     },
     {
         id: 6,
@@ -45,7 +45,7 @@ const dishesData = [
         img: 'country-salad.webp',
         name: 'Country Frisée Salad',
         description: 'Frisée, croutons, blue cheese, bacon lardons, bacon vinaigrette.',
-        category: 'SALADS'
+        category: 'APPETIZERS'
     },
     {
         id: 7,
