@@ -53,6 +53,7 @@ nav {
   font-family: 'Futura PT', sans-serif;
   color: #054279;
   margin-top: 150px;
+  background-color: white;
 }
 .container-home {
   display: flex;
@@ -81,6 +82,7 @@ nav {
 }
 .container-total {
   margin-top: 200px;
+  background-color: white;
 }
 .open-table {
   text-decoration: none;
@@ -91,6 +93,7 @@ nav {
   flex-wrap: wrap;
   font-family: 'Futura PT', sans-serif;
   color: #054279;
+  background-color: white;
 }
 .product-card {
   padding: 3%;
