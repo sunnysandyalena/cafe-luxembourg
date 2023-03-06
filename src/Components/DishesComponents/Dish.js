@@ -3,9 +3,11 @@ import { useDispatch } from "react-redux";
 import ChangeQuantity from "../Cart/ChangeQuantity";
 import { addItemToCart } from "../../redux/cartSlice";
 
+
 const Dish = ({dish}) => {
     const [quantity, setQuantity] = useState(1);
     const dispatch = useDispatch();
+    const Swal = require('sweetalert2');
     return (
         <div className="product-card">
             <div className="container-dishes" key = {dish.id}>
@@ -17,7 +19,13 @@ const Dish = ({dish}) => {
                 <ChangeQuantity quantity={quantity} setQuantity={setQuantity}/>
             </div>
             <div>
-                <button onClick={() => {dispatch(addItemToCart({dish, quantity}))}} className="add-btn">ADD</button>
+                <button onClick={() => {dispatch(addItemToCart({dish, quantity})); 
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Item was added to the cart!',
+                    showConfirmButton: false,
+                    timer: 1500
+                  })}} className="add-btn">ADD</button>
             </div>
         </div>
         </div>

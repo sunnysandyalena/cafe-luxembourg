@@ -1,9 +1,12 @@
 import { useSelector } from 'react-redux';
 import { getCartItems, getTotalPrice } from '../../redux/cartSlice';
 import CartItem from './CartItem';
+import StripeContainer from '../../Stripe/StripeContainer';
+
+
 const Cart = () => {
     const cartItems = useSelector(getCartItems);
-    const totalPrice = useSelector(getTotalPrice)
+    const totalPrice = useSelector(getTotalPrice);
     return (
         <div className="container">
             <div className='container-cart'>
@@ -14,6 +17,9 @@ const Cart = () => {
             </div>
             <div className='container-total'>
                 <h3>TOTAL: ${totalPrice}</h3>
+            </div>
+            <div>
+                <StripeContainer/>
             </div>
             
         </div>
